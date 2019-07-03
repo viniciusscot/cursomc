@@ -3,9 +3,9 @@ package com.viniciusscot.cursomc.repositories;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.viniciusscot.cursomc.domain.Produto;
+import com.viniciusscot.cursomc.domain.Pedido;
 
 @Repository
-public interface ProdutoRepository extends JpaRepository<Produto, Integer> {
+public interface PedidoRepository extends JpaRepository<Pedido, Integer> {
 
 }
